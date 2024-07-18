@@ -1,16 +1,16 @@
-# AccountMap LWC Component
+# Account Datatable LWC Component with `New` and `Delete` Feature
 
-This repository contains the `AccountMap` Lightning Web Component (LWC) for Salesforce. The component displays a map with markers pointing to account locations based on billing addresses.
+This repository contains the `Account Datatable` Lightning Web Component (LWC) for Salesforce. The component displays a list of records with displaying key fields. We can create a new account record and delete multiple records in a single action. 
 
 ## Component Files
 
-- `GoogleAccountMap.js`: JavaScript controller for the component.
-- `GoogleAccountMap.html`: HTML template for the component.
-- `GoogleAccountMap.css` (optional): CSS file for custom styling.
+- `accountDataTable.js`: JavaScript controller for the component.
+- `accountDataTable.html`: HTML template for the component.
+- `accountDataTable.js.meta-xml`: Configuration file defines the metadata values for the component.
 
-## Usage
+## Apex Class
 
-1. **Apex Controller:**
+- `Apex Controller:` Apex controller to fetch account data
 
-   Ensure you have the following Apex controller to fetch account data:
+   
 
