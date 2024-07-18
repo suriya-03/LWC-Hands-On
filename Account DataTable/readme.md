@@ -1,6 +1,6 @@
 # Account Datatable LWC Component with `New` and `Delete` Feature
 
-This repository contains the `Account Datatable` Lightning Web Component (LWC) for Salesforce. The component displays a list of records with displaying key fields. We can create a new account record and delete multiple records in a single action. 
+This repository contains the `Account Datatable` Lightning Web Component (LWC) for Salesforce. The component displays a list of records with displaying key fields. We can create a new account record, inline edit and delete multiple records in a single action. 
 
 ## Component Files
 
