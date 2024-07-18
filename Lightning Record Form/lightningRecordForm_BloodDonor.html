@@ -1,0 +1,36 @@
+<!--
+  @description       : Case Study : Blood Donor Record View Form 
+  @author            : Suriya
+  @group             : 
+  @last modified on  : 07-18-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <lightning-card title="Blood Donor- Record View Form Case Study">
+        <div class="slds-var-m-around_medium">
+            <lightning-record-view-form
+                object-api-name={objectApiName}
+                record-id={recordId}>
+
+                <div class="slds-grid slds-gutters">
+                    <div class="slds-col slds-size_4-of-12">
+                        <lightning-output-field field-name={name}> </lightning-output-field>
+                        <lightning-output-field field-name={bloodGroup}> </lightning-output-field>
+                        
+                    </div>
+    
+                    <div class="slds-col slds-size_4-of-12">
+                        <lightning-output-field field-name={age}> </lightning-output-field>
+                        <lightning-output-field field-name={email}> </lightning-output-field>
+                    </div>
+
+                    <div class="slds-col slds-size_4-of-12">
+                        <lightning-output-field field-name={phone}> </lightning-output-field>
+                        <lightning-output-field field-name={lastDonated}> </lightning-output-field>
+                    </div>
+
+                </div>
+            </lightning-record-view-form>
+        </div>
+    </lightning-card>
+</template>
