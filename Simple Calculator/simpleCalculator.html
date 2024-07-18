@@ -1,0 +1,44 @@
+<!--
+  @description       : Simple Calaculator Day 8 Case Study 2 English Video
+  @author            : Suriya.
+  @group             : 
+  @last modified on  : 05-30-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+
+    <lightning-card title="Simple Calculator">
+
+        <div class="slds-p-around_medium slds-box slds-m-around_xx-small">
+        
+            <div>
+                <lightning-input class="slds-align_absolute-left input1"  type="number" label="Input #1"   onchange={handleChangeInput1}> </lightning-input>
+            </div>
+
+            <div>
+                <lightning-input class="slds-align_absolute-left input2"   type="number" label="Input #2"   onchange={handleChangeInput2}> </lightning-input>
+            </div>
+
+            <div class="slds-p-around_medium slds-align_absolute-left ">
+                ANSWER : {result}
+            </div>
+            
+            <div class="slds-p-around_medium  slds-align_absolute-center">
+
+                <lightning-button class="slds-m-left_x-small" label="ADD" variant="brand" onclick={addition}> </lightning-button> 
+                
+                <lightning-button class="slds-m-left_x-small" label="SUB" variant="brand" onclick={subraction}> </lightning-button> 
+
+                <lightning-button class="slds-m-left_x-small" label="MUL" variant="brand" onclick={multiplication}> </lightning-button> 
+                
+                <lightning-button class="slds-m-left_x-small" label="DIV" variant="brand" onclick={division}>  </lightning-button> 
+                
+                <lightning-button class="slds-m-left_x-small" label="CLEAR" variant="brand" onclick={clear}> </lightning-button> 
+            
+            </div>
+
+        </div>
+
+    </lightning-card>
+    
+</template>
